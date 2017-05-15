@@ -16,6 +16,7 @@ class CreateView(generics.ListCreateAPIView):
 
 class DetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = BookList.objects.all()
+    
     serializer_class = BooklistSerializer 
     
     

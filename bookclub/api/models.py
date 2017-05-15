@@ -13,4 +13,5 @@ class BookList(models.Model):
     
     
     def __str__(self): 
+        print self
         return "{}".format(self.name)
